@@ -50,6 +50,7 @@ body {
 .information-section .information-content .item {
     flex: 1 1 0px;
     width: 0;
+    margin: 0 20px;
 }
 
 .information-section .information-content .item img {
@@ -70,6 +71,34 @@ body {
 .quote-section .quote-content .author {
     text-align: right;
     font-weight: bold;
+}
+
+.call-to-action-section {
+    padding: 1px;
+}
+
+.call-to-action-section .call-to-action-card {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 5px;
+    margin: 50px 150px;
+    padding: 1px;
+}
+
+.call-to-action-section .call-to-action-card .call-to-action-card-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 75px;
+    padding: 1px;
+}
+
+.call-to-action-section .call-to-action-card .call-to-action-card-content button {
+    border: solid #f9faf8;
+}
+
+.call-to-action-section .call-to-action-card .call-to-action-card-content p {
+    margin: 0;
 }
 
 /* Text classes */
