@@ -1,20 +1,21 @@
-*{
-    border: solid red;
-    padding: 0;
-    margin: 0;
-}
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-.header {
+.header, 
+.hero {
     background-color: #1f2937;
     color: #f9faf8;
-    padding: 0 150px;
+    padding: 1px;
+}
+
+.header .header-content {
+    margin: 0 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 10px;
 }
 
 .header ul li {
@@ -22,46 +23,50 @@ body {
     display: inline-block;
     margin: 0 10px;
 }
-.hero {
-    background-color: #1f2937;
-    color: #f9faf8;
-    padding: 0 150px;
+.hero .hero-content {
+    margin: 50px 150px;
+    padding: 1px;
     display: flex;
-    padding: 75px;
 }
 
 .hero .item {
     flex: 1 1 0px;
     width: 0;
-    padding: 20px;
+    margin: 20px;
 }
 
 .information-section {
     text-align: center;
-    padding-bottom: 50px;
-    padding-top: 30px;
+    margin-bottom: 50px;
+    margin-top: 30px;
 }
 
-.information-content {
+.information-section .information-content {
     display: flex;
     justify-content: space-between;
     margin: 30px 200px;
 }
-.information-content .item {
+
+.information-section .information-content .item {
     flex: 1 1 0px;
     width: 0;
 }
 
-.information-content .item img {
+.information-section .information-content .item img {
     border: solid #3882f6;
     border-radius: 10px;
 }
+
 .quote-section {
     background-color: #e5e7eb;
+    padding: 1px;
 }
+
 .quote-section .quote-content {
-    margin: 75px 200px; 
+    margin: 50px 200px; 
+    padding: 1px;
 }
+
 .quote-section .quote-content .author {
     text-align: right;
     font-weight: bold;
@@ -74,6 +79,7 @@ body {
     font-weight: bold;
     color: #f9faf8;
 }
+
 .hero-secondary-text {
     font-size: 18px;
     font-weight: lighter;
