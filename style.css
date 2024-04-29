@@ -27,13 +27,32 @@ body {
     color: #f9faf8;
     padding: 0 150px;
     display: flex;
-    padding-top: 75px;
+    padding: 75px;
 }
 
 .hero .item {
     flex: 1 1 0px;
     width: 0;
     padding: 20px;
+}
+
+.information-section {
+    text-align: center;
+}
+
+.information-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+.information-content .item {
+    flex: 1 1 0px;
+    width: 0;
+}
+
+.information-content .item img {
+    border: solid #3882f6;
+    border-radius: 10px;
 }
 
 /* Text classes */
@@ -52,6 +71,18 @@ body {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
+}
+
+.information-main-text {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin: 25px;
+}
+
+.information-secondary-text {
+    font-size: 18px;
+    color: grey;
 }
 
 /* Utilities */
