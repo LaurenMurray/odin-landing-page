@@ -5,7 +5,8 @@ body {
 }
 
 .header, 
-.hero {
+.hero, 
+.footer {
     background-color: #1f2937;
     color: #f9faf8;
     padding: 1px;
@@ -99,6 +100,11 @@ body {
 
 .call-to-action-section .call-to-action-card .call-to-action-card-content p {
     margin: 0;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
 }
 
 /* Text classes */
