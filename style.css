@@ -31,7 +31,7 @@ body {
 }
 
 .hero .item {
-    flex: 1 1 0px;
+    flex: 1;
     width: 0;
     margin: 20px;
 }
@@ -44,14 +44,15 @@ body {
 
 .information-section .information-content {
     display: flex;
-    justify-content: space-between;
-    margin: 30px 200px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }
 
 .information-section .information-content .item {
-    flex: 1 1 0px;
-    width: 0;
-    margin: 0 20px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
 }
 
 .information-section .information-content .item img {
@@ -89,6 +90,7 @@ body {
 .call-to-action-section .call-to-action-card .call-to-action-card-content {
     display: flex;
     justify-content: space-between;
+    /* Could remove */
     align-items: center;
     margin: 30px 75px;
     padding: 1px;
